@@ -1,0 +1,19 @@
+Important: node install and node start didn't work on my machine. I use yarn install yarn start instead.
+
+Also,
+I did all of the code changes in the lab specification but I don't think it's working properly? Like it shows two characters but they are not moving in sync on each tab?
+
+1. I see a webpage with header Node.js "WebSockets Lab". Below it is a  bunny that can be dragged around. When I open http://localhost:8080/ in another tab, and move the bunny (in either tab), the changes are immediately reflected in the tab where the bunny wasn't dragged.
+
+2. Typecript is like javascript but with types, and thus is a statically typed language where object types need to be defined. Typescript code needs to be compiled whereas javascript code doesn't. Typescript has prototyping, and uses types & interfaces. Javascript objects can be made without having to define type or interface (in fact interfaces aren't supported by js).
+
+3. Bundlers are useful for the sake of making development and use easier. Web application bundlers pack up all code and dependencies of a project into one JS file. They make things easier, because it's like handing someone over a backpack with everything they need inside, instead of handing them a backpack with only some parts inside and expecting them to have things that are compattible with what's in the backpack. Bundlers create an isolated environment that's kinda 'guaranteed' to work on any system (if the project works that is, and is compattible with the system).
+
+4. Readystate can take 4 different values.
+	0: CONNECTING: this means that the socket has been created, however the connection is not open yet
+	1: OPEN: this means that the socket connection is open and is ready to communicate
+	2: CLOSING: this means that the connection is in the process of closing (not yet closed)
+	3: CLOSED: this means that the connection is closed, or couldn't be opened
+
+5. https://github.com/nathandrapeza/nodejs-ws-lab.git
+   * updated code is in topdown branch!!! *
